@@ -1,5 +1,6 @@
 # judge-audit
 
+[![PyPI](https://img.shields.io/pypi/v/judge-audit)](https://pypi.org/project/judge-audit/)
 [![CI](https://github.com/sophie-nguyenthuthuy/judge-audit/actions/workflows/ci.yml/badge.svg)](https://github.com/sophie-nguyenthuthuy/judge-audit/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.9%E2%80%933.13-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -21,9 +22,14 @@ Pure NumPy, zero required deps beyond `numpy` (`matplotlib` optional for plots).
 ## Install
 
 ```bash
-pip install -e .          # core
-pip install -e ".[plot]"  # + matplotlib for PNG plots
-pip install -e ".[dev]"   # + pytest
+pip install judge-audit            # from PyPI
+pip install "judge-audit[plot]"    # + matplotlib for PNG plots
+```
+
+From source:
+
+```bash
+pip install -e ".[dev,plot]"       # editable, with pytest + matplotlib
 ```
 
 ## 60-second demo
