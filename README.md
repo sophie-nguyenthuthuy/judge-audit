@@ -1,5 +1,9 @@
 # judge-audit
 
+[![CI](https://github.com/sophie-nguyenthuthuy/judge-audit/actions/workflows/ci.yml/badge.svg)](https://github.com/sophie-nguyenthuthuy/judge-audit/actions/workflows/ci.yml)
+![Python](https://img.shields.io/badge/python-3.9%E2%80%933.13-blue)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 **Your eval is a measurement instrument. Audit it like one.**
 
 LLM-as-judge has quietly become the backbone of model evaluation — but the
